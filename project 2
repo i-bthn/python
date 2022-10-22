@@ -1,0 +1,31 @@
+
+
+#old= input("How old are U ? ")
+
+#print("You Are ",old," Years Old!")
+
+name = 'Khalid'
+age = 18
+is_student = True
+print(type(name))
+print(type(age))
+print(type(is_student))
+
+Child1='Arwa', '25'
+print(type(Child1))
+
+age = 12
+if age >= 16 :
+    print ("wellcome",age)
+elif age == 15 :
+    print (age)
+
+student = ["Arwa", "Bthn","Carolina","Dana"]
+for s in student :
+        print(s)
+
+for n in range(5):
+    print(n)
+
+def art():
+    print("art")
