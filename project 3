@@ -1,5 +1,6 @@
 try:
     from Tkinter import *
+    
     import tkFont
 except ImportError as err:
     print ("error: %s. Tkinter library is required for using the GUI.") % err.message
