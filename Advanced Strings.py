@@ -20,11 +20,6 @@ print(value1.isidentifier())
 
 
 
-#####
-#nwe line #
-#line to update #
-#add part 1.4
-#add4
-#part 5
+
 
 
