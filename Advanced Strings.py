@@ -22,27 +22,6 @@ print(value1.isidentifier())
 
 
 
-#List advance :
-value= [[1,2,3],3,4]
-print(value[0][2])
-#we can select specific index at List 
-
-
-
-
-
-
-#filter function :
-age=[10,15,30,22,27,18,12,40]
-
-def filter_age(age):
-    return age >=18
-           #filter(condition,List)
-print (list(filter(filter_age,age)))
-
-
-
-
 
 
 
