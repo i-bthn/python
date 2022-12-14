@@ -85,5 +85,9 @@ def square(num):
 print(list(map(square,numbers)))
 
 
+#sort 
+list.sort()
 
+#reverse
+list.reverce()
 
