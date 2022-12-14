@@ -50,4 +50,40 @@ now = datetime.datetime.today()
   time = datetime.time(14,0,59)
     print(date.strftime('%A %B %Y'))
     print(time.strftime('%I %M %S'))
+    
+    
+    
+    
+    #List advance :
+value= [[1,2,3],3,4]
+print(value[0][2])
+#we can select specific index at List 
+
+
+
+
+
+
+#filter function :
+age=[10,15,30,22,27,18,12,40]
+
+def filter_age(age):
+    return age >=18
+           #filter(condition,List)
+print (list(filter(filter_age,age)))
+
+
+
+
+#map function
+numbers = [1,2,3,4,5,6]
+
+
+def square(num):
+    return num**2
+
+print(list(map(square,numbers)))
+
+
+
 
